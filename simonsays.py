@@ -24,11 +24,6 @@ def validate_guess(color_sequence_string,guess):
     if color_sequence_string == guess.upper():
        print "Correct" 
     else: 
- #       print "You Lose\nWould you like to play again?"
- #       response = raw_input()
- #       if str(response.lower )== "yes":
-  #          print "Have Fun!"
-   #     else:     
             exit()
 
 def blink_lights(): 
